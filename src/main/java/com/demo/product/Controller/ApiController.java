@@ -1,11 +1,12 @@
-package com.demo.countries.Controller;
+package com.demo.product.Controller;
 
-import com.demo.countries.Entity.RestModel;
-import com.demo.countries.Service.ApiService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.*;
+
+import com.demo.product.Entity.RestModel;
+import com.demo.product.Service.ApiService;
 
 @RestController
 public class ApiController {

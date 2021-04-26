@@ -1,9 +1,8 @@
-package com.demo.countries.Service;
+package com.demo.product.Service;
 
 import  java.lang.String;
 import java.net.http.HttpHeaders;
 
-import com.demo.countries.Entity.RestModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -14,6 +13,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 //import java.io.PrintWriter;
 import java.util.*;
+
+import com.demo.product.Entity.RestModel;
 
 @Service
 public class ApiService {
